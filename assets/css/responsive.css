@@ -1,0 +1,30 @@
+@media(max-width: 425px){
+	.navDesktop{
+		display: none;
+	}
+
+
+	.container {
+		width: 100%
+	}
+
+	
+	.overlay h3{
+		font-size: 25px;
+	}
+
+
+	.column{
+		flex: 0 0 calc(100% );
+		padding: 15px;
+	}
+
+
+
+}
+
+@media(min-width: 426px){
+	.hamburger{
+		display: none;
+	}
+}
